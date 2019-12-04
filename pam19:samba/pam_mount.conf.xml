@@ -14,8 +14,8 @@
 
 		<!-- Volume definitions -->
 
-    <volume  user="user"  fstype="smbfs"  server="samba"  path="user"
-    mountpoint="/home/user/user" />
+    <volume user="pere" fstype="cifs" server="samba" path="%(USER)"
+mountpoint="~/%(USER)" options="user=%(USER)" />
 
 		<!-- pam_mount parameters: General tunables -->
 

@@ -7,4 +7,4 @@ cp /opt/docker/nsswitch.conf /etc/nsswitch.conf
 cp /opt/docker/pam_mount.conf.xml /etc/security/pam_mount.conf.xml
 
 # Permetem la autenticació amb ldap amb authconfig
-bash /opt/docker/auth.sh
+cp /opt/docker/system-auth-ac /etc/pam.d/system-auth-ac
