@@ -16,9 +16,4 @@ cp /opt/docker/*.md /var/lib/samba/privat/.
 cp /opt/docker/smb.conf /etc/samba/smb.conf
 
 # Information Provider a LDAP
-cp /opt/docker/nscd.conf /etc/nscd.conf
-cp /opt/docker/nslcd.conf /etc/nslcd.conf
-cp /opt/docker/nsswitch.conf /etc/nsswitch.conf
-
-# Permetem la autenticació amb ldap amb authconfig
 bash /opt/docker/auth.sh
